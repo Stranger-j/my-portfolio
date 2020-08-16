@@ -556,3 +556,57 @@ div#maincontent {
   transition: .9s;
   background-color: #34b7a7;
 }
+
+
+
+
+
+
+#projects .projects-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#projects .projects-item .projects-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#projects .projects-item .projects-link .caption {
+  background: rgba(157, 131, 112, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#projects .projects-item .projects-link .caption:hover {
+  opacity: 1;
+}
+#projects .projects-item .projects-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#projects .projects-item .projects-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#projects .projects-item .projects-link .caption .caption-content h3,
+#projects .projects-item .projects-link .caption .caption-content h4 {
+  margin: 0;
+}
+#projects * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #projects .projects-item {
+    margin: 0 0 30px;
+  }
+}
