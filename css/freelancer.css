@@ -610,3 +610,7 @@ div#maincontent {
     margin: 0 0 30px;
   }
 }
+
+#myskills li{
+    font-size: 20px;
+}
