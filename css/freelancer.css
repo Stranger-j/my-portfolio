@@ -456,9 +456,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
-.portfolio-modal .modal-content .item-details {
-  margin: 30px 0;
-}
+
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
@@ -613,4 +611,15 @@ div#maincontent {
 
 #myskills li{
     font-size: 20px;
+}
+
+.portfolio-modal .modal-content .item-details {
+  margin: 30px 0;
+}
+
+.modal-body li {
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 5px;
+
 }
