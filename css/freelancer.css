@@ -623,3 +623,10 @@ div#maincontent {
   margin-bottom: 5px;
 
 }
+
+.modal-body li p{
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 5px;
+
+}
