@@ -4,9 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  color: #8B7765;
+  color: #8b7765;
 }
 p {
   font-size: 20px;
@@ -19,24 +19,23 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #8B7765;
+  color: #8b7765;
 }
-h1{
-  font-family: "Courier New", Courier, monospace;
+h1 {
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
-
 
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #CDAF95
+  color: #cdaf95;
 }
 hr.star-light,
 hr.star-primary {
@@ -61,22 +60,22 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #CDAF95	;
+  background-color: #cdaf95;
   color: white;
 }
 hr.star-primary {
-  border-color: #CDAF95	;
+  border-color: #cdaf95;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #CDAF95	;
+  color: #cdaf95;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #CDAF95	;
+  background: #cdaf95;
   color: white;
 }
 header .container {
@@ -89,7 +88,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -111,8 +110,8 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #CDAF95	;
-  font-family: "Courier New", Courier, monospace;
+  background: #cdaf95;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
@@ -133,21 +132,21 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #8B7765	;
+  color: #8b7765;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: #8B7765;
-  background: #CDAF95	;
+  color: #8b7765;
+  background: #cdaf95;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #CDAF95;
+  background: #cdaf95;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -157,9 +156,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #CDAF95	;
+  background-color: #cdaf95;
   color: white;
-  border-color: #18BC9C;
+  border-color: #18bc9c;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -189,8 +188,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: white	;
-  color:8B7765;
+  background: white;
+  color: 8b7765;
 }
 @media (max-width: 767px) {
   section {
@@ -278,10 +277,10 @@ section.success {
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
-  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
-  transition: top 0.3s ease,opacity 0.3s ease;
+  -webkit-transition: top 0.3s ease, opacity 0.3s ease;
+  -moz-transition: top 0.3s ease, opacity 0.3s ease;
+  -ms-transition: top 0.3s ease, opacity 0.3s ease;
+  transition: top 0.3s ease, opacity 0.3s ease;
 }
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
@@ -292,7 +291,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #18bc9c;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -305,7 +304,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -318,7 +317,7 @@ footer .footer-below {
   color: white;
   font-size: 20px;
   border: solid 2px white;
-  background: #CDAF95;
+  background: #cdaf95;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
@@ -327,13 +326,13 @@ footer .footer-below {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background: #8B7765;
+  background: #8b7765;
   border: solid 2px white;
 }
 .btn-primary {
   color: white;
-  background-color: #8B7765;
-  border-color: #2C3E50;
+  background-color: #8b7765;
+  border-color: #2c3e50;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -342,8 +341,8 @@ footer .footer-below {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #8B7765;
-  border-color: #8B7765;
+  background-color: #8b7765;
+  border-color: #8b7765;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -365,17 +364,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 .btn-primary .badge {
-  color: #2C3E50;
+  color: #2c3e50;
   background-color: white;
 }
 .btn-success {
   color: white;
-  background-color: #CDAF95	;
-  border-color: #CDAF95	;
+  background-color: #cdaf95;
+  border-color: #cdaf95;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -384,8 +383,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #8B7765;
-  border-color: #8B7765;
+  background-color: #8b7765;
+  border-color: #8b7765;
 }
 .btn-success:active,
 .btn-success.active,
@@ -407,11 +406,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #CDAF95	;
-  border-color: #CDAF95	;
+  background-color: #cdaf95;
+  border-color: #cdaf95;
 }
 .btn-success .badge {
-  color: #CDAF95	;
+  color: #cdaf95;
   background-color: white;
 }
 .btn-social {
@@ -473,7 +472,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #CDAF95	;
+  background-color: #cdaf95;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -484,7 +483,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #CDAF95	;
+  background-color: #cdaf95;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -513,7 +512,7 @@ fieldset[disabled] .btn-success.active {
   position: absolute;
   left: 0px;
   top: 0px;
-  background: #CDAF95	;
+  background: #cdaf95;
   outline: 0;
   transition: top 0.1s ease-in, background 0.5s linear;
 }
@@ -535,7 +534,7 @@ div#maincontent {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
 }
 
@@ -551,14 +550,9 @@ div#maincontent {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #34b7a7;
 }
-
-
-
-
-
 
 #projects .projects-item {
   margin: 0 0 15px;
@@ -609,8 +603,8 @@ div#maincontent {
   }
 }
 
-#myskills li{
-    font-size: 20px;
+#myskills li {
+  font-size: 20px;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -621,12 +615,10 @@ div#maincontent {
   font-size: 17px;
   text-align: left;
   margin-bottom: 5px;
-
 }
 
-.modal-body li p{
+.modal-body li p {
   font-size: 17px;
   text-align: left;
   margin-bottom: 5px;
-
 }
