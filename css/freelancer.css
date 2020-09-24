@@ -622,3 +622,70 @@ div#maincontent {
   text-align: left;
   margin-bottom: 5px;
 }
+
+#timeline-content {
+  text-align: center;
+}
+
+#timeline-content h2 {
+  font-size: 3em;
+}
+
+/* 몸통 고치려면 여기서 하쇼 */
+.timeline {
+  background: #fefefe;
+  border-left: 4px solid #cdaf95;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 0.8 em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 40%;
+}
+
+/* 하얀 점선 고치려면 여기서 하쇼 */
+.event {
+  border-bottom: 1px dashed #cdaf95;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+/* 왼쪽꺼 고치려면 여기서 하쇼 */
+.event::before {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -210px;
+  color: #cdaf95;
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 3 em;
+  min-width: 120px;
+}
+
+.event::after {
+  position: absolute;
+  display: block;
+  top: 0;
+  box-shadow: 0 0 0 4px #cdaf95;
+  left: -57.85px;
+  background: #fefefe;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
+}
