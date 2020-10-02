@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #48392a;
 }
 
 a {
@@ -173,7 +173,7 @@ h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #888888;
+  color: #faf0ca;
   transition: 0.3s;
   font-size: 15px;
   font-family: "Raleway", sans-serif;
@@ -203,7 +203,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #222222;
+  color: #c5979d;
 }
 
 .nav-menu .drop-down ul {
