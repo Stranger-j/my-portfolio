@@ -696,3 +696,8 @@ div#maincontent {
   content: "";
   top: 5px;
 }
+
+.img-wide {
+  min-width: 160%;
+  margin-left: calc(-30%);
+}
