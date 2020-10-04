@@ -6,8 +6,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  color: #8b7765;
-  background: #fcf7e3;
+  color: #545863;
+  background: #f1ebe4;
 }
 p {
   font-size: 20px;
@@ -20,7 +20,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #8b7765;
+  color: #545863;
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -32,7 +32,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #adc698;
+  color: #545863;
 }
 
 h3,
@@ -42,7 +42,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #adc698;
+  color: #545863;
 }
 
 hr.star-light,
@@ -65,26 +65,26 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: #e5e4f1;
+  border-color: #c6ac8f;
 }
 hr.star-light:after {
-  background-color: #cdaf95;
+  background-color: #b7b7a4;
   color: white;
 }
 hr.star-primary {
-  border-color: #e5e4f1;
+  border-color: #c6ac8f;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #cdaf95;
+  color: #b7b7a4;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #cdaf95;
-  color: #d2e0c7;
+  background: #b7b7a4;
+  color: #545863;
 }
 header .container {
   padding-top: 100px;
@@ -118,7 +118,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #cdaf95;
+  background: #b7b7a4;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -140,21 +140,21 @@ header .intro-text .skills {
   color: #d2e0c7;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #8b7765;
+  color: #b7b7a4;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: #8b7765;
-  background: #cdaf95;
+  color: #545863;
+  background: #b7b7a4;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #cdaf95;
+  background: #b7b7a4;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -413,11 +413,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #cdaf95;
-  border-color: #cdaf95;
+  background-color: #b7b7a4;
+  border-color: #b7b7a4;
 }
 .btn-success .badge {
-  color: #cdaf95;
+  color: #c6ac8f;
   background-color: white;
 }
 .btn-social {
@@ -640,8 +640,8 @@ div#maincontent {
 
 /* 몸통 고치려면 여기서 하쇼 */
 .timeline {
-  background: #fcf7e3;
-  border-left: 5px solid #cdaf95;
+  background: #f1ebe4;
+  border-left: 5px solid #b7b7a4;
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
   margin: 50px auto;
@@ -658,7 +658,7 @@ div#maincontent {
 
 /* 하얀 점선 고치려면 여기서 하쇼 */
 .event {
-  border-bottom: 1px dashed #cdaf95;
+  border-bottom: 1px dashed #b7b7a4;
   padding-bottom: 25px;
   margin-bottom: 50px;
   position: relative;
@@ -675,7 +675,7 @@ div#maincontent {
   display: block;
   top: 0;
   left: -210px;
-  color: #cdaf95;
+  color: #b7b7a4;
   content: attr(data-date);
   text-align: right;
   font-weight: 100;
@@ -687,7 +687,7 @@ div#maincontent {
   position: absolute;
   display: block;
   top: 0;
-  box-shadow: 0 0 0 4px #cdaf95;
+  box-shadow: 0 0 0 4px #b7b7a4;
   left: -57.85px;
   background: #fcf7e3;
   border-radius: 50%;
@@ -698,6 +698,6 @@ div#maincontent {
 }
 
 .img-wide {
-  min-width: 160%;
-  margin-left: calc(-30%);
+  min-width: 150%;
+  margin-left: calc(-25%);
 }
