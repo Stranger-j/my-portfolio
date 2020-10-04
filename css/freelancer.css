@@ -701,3 +701,8 @@ div#maincontent {
   min-width: 150%;
   margin-left: calc(-25%);
 }
+
+/* 갤러리 */
+.ggrid img {
+  margin-bottom: 2rem;
+}
