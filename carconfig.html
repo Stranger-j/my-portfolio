@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Permanent+Marker&family=Piazzolla:wght@100&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Car Configurator</title>
     <link rel="icon" href="image/heart2.png" type="image/x-icon" />
   </head>
@@ -63,7 +65,15 @@
           </div>
         </div>
         <br />
-        <div class="content-container">
+
+        <div class="step"  data-aos="fade-up">
+            <div><p>Research</p></div>
+            <div class ="step2"><p>Gather</p></div>
+            <div class ="step3"><p>Define</p></div>
+            <div class = "step4"><p>Deliver</p></div>
+          </div>
+        <div class="content-container"  data-aos="fade-up">
+          <h2>Research</h2>
           <div class="left-content">
             <div>
               <h3>Competitive analysis and Web analytics</h3>
@@ -84,7 +94,8 @@
           </div>
         </div>
 
-        <div class="content-container">
+        <div class="content-container right"  data-aos="fade-up">
+          <h2>Gather</h2>
           <div class="right-content">
             <div>
               <img src="image/car-workshop.jpg" alt="" width="100%" />
@@ -111,7 +122,8 @@
           </div>
         </div>
 
-        <div class="content-container">
+        <div class="content-container"  data-aos="fade-up">
+        <h2>Define</h2>
           <div class="left-content">
             <div>
               <h3>Wireframes</h3>
@@ -140,16 +152,21 @@
         <br />
         <br />
 
-        <div class="content-container middle">
+        <div class="content-container middle"  data-aos="fade-up">
+            <h2>Deliver</h2>
           <h3>Implementation!</h3>
-          <br />
-          <br />
+          <br>
           <p>
-            Due to the GDPR, the implementation of this feature in Europe was
-            postponed. However, we implemented this feature in a global template
-            website, which is used for the global roll-out, in order to maintain
-            consistent brand identity and customer experience.
-          </p>
+              Due to the GDPR, the implementation of this feature in Europe was
+              postponed. However, we implemented this feature in a global template
+              website, which is used for the global roll-out, in order to maintain
+              consistent brand identity and customer experience.
+            </p>
+          <br>
+          <br>
+
+          <br />
+        
           <br />
           <br />
           <br />
@@ -164,5 +181,9 @@
         <br />
       </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

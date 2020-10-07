@@ -379,6 +379,12 @@ nav a:hover {
   font-family: "Montserrat", sans-serif;
 }
 
+.right h2 {
+  text-align: right;
+  font-size: 8em;
+  font-family: "Montserrat", sans-serif;
+}
+
 .content-container h3 {
   font-size: 4em;
   font-family: "David Libre", serif;
@@ -403,10 +409,62 @@ nav a:hover {
   text-align: right;
 }
 
+.middle h2 {
+  text-align: center;
+  margin: 15rem 0;
+}
+
 .middle h3 {
   text-align: center;
 }
 
 .ending h3 {
   text-align: center;
+}
+
+/* step */
+.step {
+  display: flex;
+  justify-content: center;
+  margin: 10rem 0 12rem 0;
+}
+.step p {
+  font-size: 4rem;
+}
+.step2 p {
+  font-size: 4rem;
+  color: #f8eddd;
+}
+
+.step3 p {
+  font-size: 4rem;
+  color: #f8eddd;
+}
+
+.step4 p {
+  font-size: 4rem;
+  color: #f8eddd;
+}
+
+.step div {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0 -2rem;
+}
+.step div:nth-child(1) {
+  border: 10px solid #585760;
+}
+.step div:nth-child(2) {
+  background-color: #987284;
+}
+.step div:nth-child(3) {
+  background-color: #606d5d;
+}
+.step div:nth-child(4) {
+  background-color: #f9b98b;
 }
