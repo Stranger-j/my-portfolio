@@ -385,6 +385,17 @@ nav a:hover {
   image-rendering: -webkit-optimize-contrast;
 }
 
+.img-right {
+  width: 200px;
+  text-align: center;
+  display: block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float: left;
+}
+
 .bigimg {
   min-width: 90%;
   margin-left: calc(13%);
