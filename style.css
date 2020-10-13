@@ -98,6 +98,16 @@ nav a:hover {
   padding: 1em;
   margin-top: 8em;
 }
+.text span {
+  margin-left: -4rem;
+  font-size: 1.6rem;
+}
+
+.text-reverse span {
+  margin-right: -7rem;
+  font-size: 1.6rem;
+}
+
 .text h2 {
   margin-left: -4.5rem;
   font-size: 4.2rem;
@@ -307,6 +317,16 @@ nav a:hover {
   margin: 5rem 0;
 }
 
+.content-container a {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.next {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5rem;
+}
 .next a {
   margin: 3rem;
   font-family: "Piazzolla", serif;
@@ -374,10 +394,14 @@ nav a:hover {
 .imgs div {
   flex: 1;
   margin: 1rem;
+  text-align: center;
 }
-.img-left img {
-  margin-bottom: 10rem;
-  image-rendering: -webkit-optimize-contrast;
+.second-img {
+  margin-top: 10rem;
+}
+.imgs span {
+  font-size: 1.4rem;
+  color: red;
 }
 .img-right img {
   margin-top: 20rem;
@@ -459,6 +483,11 @@ nav a:hover {
 
 .ending h3 {
   text-align: center;
+}
+
+.middle a {
+  font-size: 2rem;
+  font-style: italic;
 }
 
 /* step */
