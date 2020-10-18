@@ -485,6 +485,14 @@ nav a:hover {
   text-align: center;
 }
 
+.middle h4 {
+  text-align: center;
+}
+
+.ending h4 {
+  text-align: center;
+}
+
 .middle a {
   font-size: 2rem;
   font-style: italic;
